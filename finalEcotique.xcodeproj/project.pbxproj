@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDBDC4932C1B7E51005B6BCE /* FourthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBDC4922C1B7E51005B6BCE /* FourthView.swift */; };
 		BDCFEE962C1B7702004F8FD6 /* finalEcotiqueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFEE952C1B7702004F8FD6 /* finalEcotiqueApp.swift */; };
 		BDCFEE982C1B7702004F8FD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFEE972C1B7702004F8FD6 /* ContentView.swift */; };
 		BDCFEE9A2C1B7704004F8FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDCFEE992C1B7704004F8FD6 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		BDCFEEA72C1B7704004F8FD6 /* finalEcotiqueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFEEA62C1B7704004F8FD6 /* finalEcotiqueTests.swift */; };
 		BDCFEEB12C1B7704004F8FD6 /* finalEcotiqueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFEEB02C1B7704004F8FD6 /* finalEcotiqueUITests.swift */; };
 		BDCFEEB32C1B7704004F8FD6 /* finalEcotiqueUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFEEB22C1B7704004F8FD6 /* finalEcotiqueUITestsLaunchTests.swift */; };
+		BDCFEEC02C1B7719004F8FD6 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFEEBF2C1B7719004F8FD6 /* SecondView.swift */; };
+		BDCFEEC22C1B7731004F8FD6 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFEEC12C1B7731004F8FD6 /* ThirdView.swift */; };
+		BDCFEEC62C1B779B004F8FD6 /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCFEEC52C1B779B004F8FD6 /* FifthView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDBDC4922C1B7E51005B6BCE /* FourthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthView.swift; sourceTree = "<group>"; };
 		BDCFEE922C1B7702004F8FD6 /* finalEcotique.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalEcotique.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCFEE952C1B7702004F8FD6 /* finalEcotiqueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalEcotiqueApp.swift; sourceTree = "<group>"; };
 		BDCFEE972C1B7702004F8FD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,9 @@
 		BDCFEEAC2C1B7704004F8FD6 /* finalEcotiqueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalEcotiqueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDCFEEB02C1B7704004F8FD6 /* finalEcotiqueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalEcotiqueUITests.swift; sourceTree = "<group>"; };
 		BDCFEEB22C1B7704004F8FD6 /* finalEcotiqueUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalEcotiqueUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDCFEEBF2C1B7719004F8FD6 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		BDCFEEC12C1B7731004F8FD6 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		BDCFEEC52C1B779B004F8FD6 /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				BDCFEE952C1B7702004F8FD6 /* finalEcotiqueApp.swift */,
 				BDCFEE972C1B7702004F8FD6 /* ContentView.swift */,
+				BDCFEEBF2C1B7719004F8FD6 /* SecondView.swift */,
+				BDCFEEC12C1B7731004F8FD6 /* ThirdView.swift */,
+				BDBDC4922C1B7E51005B6BCE /* FourthView.swift */,
+				BDCFEEC52C1B779B004F8FD6 /* FifthView.swift */,
 				BDCFEE992C1B7704004F8FD6 /* Assets.xcassets */,
 				BDCFEE9B2C1B7704004F8FD6 /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDCFEEC22C1B7731004F8FD6 /* ThirdView.swift in Sources */,
+				BDCFEEC02C1B7719004F8FD6 /* SecondView.swift in Sources */,
 				BDCFEE982C1B7702004F8FD6 /* ContentView.swift in Sources */,
 				BDCFEE962C1B7702004F8FD6 /* finalEcotiqueApp.swift in Sources */,
+				BDBDC4932C1B7E51005B6BCE /* FourthView.swift in Sources */,
+				BDCFEEC62C1B779B004F8FD6 /* FifthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
