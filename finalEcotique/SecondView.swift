@@ -17,10 +17,15 @@ struct SecondView: View {
         
             ZStack{
                 Image("profile")
+//                    .resizable()
+//                    .aspectRatio(contentMode: .fill)
+//                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height / 2)
+//                    .edgesIgnoringSafeArea(.top)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height / 2)
                     .edgesIgnoringSafeArea(.top)
+                    .padding(.top, -28)
                 
                 VStack{
                     TextField("Enter Name", text: $text)

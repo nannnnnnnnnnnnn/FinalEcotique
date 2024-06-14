@@ -7,7 +7,7 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 ZStack {
-                    Image("app")
+                    Image("home 1")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                         .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height / 2)

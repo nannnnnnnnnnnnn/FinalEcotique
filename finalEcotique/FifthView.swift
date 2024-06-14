@@ -22,6 +22,8 @@ struct FifthView: View {
                     Image("ecolane")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
+                    .padding(.top, -84)
+                    .edgesIgnoringSafeArea(.bottom)
                     
                         Text("Everlane is a clothing design and manufacturing company that specializes in designing clothing and footwear for men and women. It also provides an online marketplace that allows individuals to create accounts and purchase their products online.")
                         .font(.title3)

@@ -37,7 +37,7 @@ struct FourthView: View {
                         //the brands
                         
                         HStack {
-                            Text("Eco-friendly Brands")
+                            Text("Eco-Friendly Clothing Brands")
                                 .font(.title2)
                                 .fontWeight(.bold)
                                 .padding(.horizontal)
@@ -55,6 +55,7 @@ struct FourthView: View {
                         
                         // Horizontal Scroll for brands
                         ScrollView(.horizontal, showsIndicators: false) {
+                            NavigationLink(destination: FifthView()){
                             HStack(spacing: 30) {
                                 Brands(imageName: "Brand 1", title: "everlane", subtitle: "Ethically sourced, finest materials, Radical Transparency. Making the right choice as easy as putting on a great T-shirt")
                                 Brands(imageName: "Brand 2", title: "tentree", subtitle: "Small changes, big impact. Use reusable bags and bottles. Each purchase supports trees, sustainability, fair work conditions.")
@@ -65,6 +66,7 @@ struct FourthView: View {
                             .padding(.horizontal)
                             .offset(y: 3)
                         }
+                    }
                         
                         
                         // Horizontal Scroll for Categories
